@@ -5,77 +5,64 @@
   font-family: "Fira Code", monospace;
   font-family: "Press Start 2P", cursive;
 }
-header {
+/*   Banner, titulo e subtitulo     */
+.banner {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+}
+.imagem {
+  background-image: url(./assets/photo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
   border-bottom: 10px solid #000;
-  background-color: #7c5e99;
-  height: 90px;
-  padding: 10px 20px;
-}
-img {
-  width: 60px;
-  height: 60px;
-}
-nav {
-  display: inline-flex;
-}
-nav a {
-  display: flex;
-  font-family: Fira Code;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  color: white;
-  margin: 27px 30px;
-  align-items: center;
-  text-decoration: none;
-  gap: 10px;
-}
-a::before {
-  content: "";
-  width: 10px;
-  height: 10px;
-  background-color: #f25a70;
-}
-.buttom {
-  width: 170px;
-  height: 60px;
-  background-color: #f25a70;
-  box-shadow: 5px 5px 0px 0px #000;
-  margin: 10px 20px;
-  transition: transform 250ms linear;
-}
-.buttom:hover {
-  -xpedu-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  transform: scale(0.8);
-}
-
-#container{
-  padding: 116px 237px 0 91px;
 }
 .background {
   background-color: #3a4042;
   width: 627px;
   height: 184px;
   box-shadow: 5px 5px 0px 0px #000;
+  margin: 116px 237px 0 91px;
 }
-.title :nth-child(1) {
+.titulo-text {
   font-family: Press Start 2P;
   font-size: 40px;
-  text-shadow: 4px 4px 0px 0px #000;
+  text-shadow: 4px 4px 0px #000;
   color: var(--color-first, #f25a70);
   padding: 42px 97px 28px 90px;
 }
-.title :nth-child(2) {
+.substitulo-text {
   color: var(--color-third, #fff);
-  text-shadow: 4px 4px 0px 0px #000;
+  text-shadow: 4px 4px 0px #000;
   font-family: Press Start 2P;
   font-size: 30px;
   font-style: normal;
-  line-height: normal;
   padding: 0 47px 44px 40px;
+}
+.buttons {
+  display: inline-flex;
+  font-family: "Fira Code", sans-serif;
+  gap: 112px;
+  margin: 38px 0 0 181px;
+}
+.buttons a {
+  display: flex;
+  width: 170px;
+  height: 60px;
+  background-color: #f25a70;
+  box-shadow: 5px 5px 0px 0px #000;
+  text-decoration: none;
+  align-items: center;
+  font-family: "Fira Code", sans-serif;
+}
+.buttons :nth-child(1) {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+.buttons :nth-child(2) {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding: 17px 18px 17.43px 20px;
 }
