@@ -1,5 +1,5 @@
 .box {
-  width: 630px;
-  height: 185px;
+  display: inline-block;
   background-color: #3a4042;
+  box-shadow: 5px 5px 0px 0px #000;
 }
