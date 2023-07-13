@@ -1,9 +1,9 @@
 .buttom {
-  width: 180px;
-  height: 60px;
+  display: inline-block;
   background-color: #f25a70;
   box-shadow: 5px 5px 0px 0px #000;
-  margin: 10px 20px;
+  margin-right: 0;
+  padding: 18px 20px;
   transition: transform 250ms linear;
 }
 .buttom:hover {
