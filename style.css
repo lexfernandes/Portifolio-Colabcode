@@ -10,12 +10,8 @@ header {
 nav {
   display: inline-flex;
 }
+
 nav a {
-  margin: 27px 30px;
-  gap: 10px;
-}
-nav a,
-.buttom {
   display: flex;
   font-size: 20px;
   font-style: normal;
@@ -23,6 +19,8 @@ nav a,
   color: white;
   align-items: center;
   text-decoration: none;
+  margin: 27px 30px;
+  gap: 10px;
 }
 a::before {
   content: "";
