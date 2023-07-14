@@ -1,0 +1,8 @@
+.title-banner {
+  display: flex;
+  color: var(--color-third, #fff);
+  font-family: "Press Start 2P", cursive;
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 50px;
+}

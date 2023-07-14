@@ -1,0 +1,9 @@
+
+.background{
+  display: flex;
+  justify-content: center;
+}
+.banner2{
+  background-color: #F25A70 ;
+  height: 730px;
+}
