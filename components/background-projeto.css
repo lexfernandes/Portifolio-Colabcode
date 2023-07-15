@@ -1,0 +1,20 @@
+.background-projeto {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.background-projeto svg:nth-child(1) {
+  width: 280px;
+  height: 280px;
+  box-shadow: 10px 10px 0px 0px #fff;
+  padding: 17px 34.5px 17.5px 35px;
+  background-color: #7c5e99;
+}
+.background-projeto img:nth-child(2) {
+  width: 280px;
+  height: 280px;
+  box-shadow: 10px 10px 0px 0px #fff;
+  padding: 12px 15px 14px 20px;
+  background-color: #4c5b84;
+}

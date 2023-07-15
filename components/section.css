@@ -6,3 +6,7 @@
 .section .main-title {
   margin-bottom: 60px;
 }
+.section.-second {
+  background-color: #000;
+  border-bottom: 10px solid #f25a70;
+}
